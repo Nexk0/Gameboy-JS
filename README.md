@@ -9,6 +9,7 @@ The controls for the js game are the arrows of the keyboard (↑↓←→) to mo
 Select, start, and B doesn't do anything for the moment.
 (The button B is in the js code because i wanted to add an easter egg)
 
+# To be continued...
 Fixing the bugs wasn't the easiest thing, but I was able to fix the most important ones.
 Please do not hesitate to contact me if you have discovered any problems.
 I'll continue working on this project after my finals
