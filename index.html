@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameBoy</title>
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+    <div class="gbBackgounrd">
+        <div class="powerButton"></div>
+        <container class="screenContainer">
+            <div class="borderScreen">
+                <div class="batteryAndRedContainer">
+                    <div class="roundRedButton"></div>
+                    <p>power</p>
+                </div>
+                <canvas class="screen canvasGame" width="256" height="256"></canvas>
+            </div>
+        </container>
+        <container class="crossContainer">
+            <div class="middleCross Cross"></div>
+            <div class="upperCross Cross"></div>
+            <div class="lowerCross Cross"></div>
+            <div class="leftCross Cross"></div>
+            <div class="rightCross Cross"></div>
+        </container>
+        <div class="buttonsContainer">
+            <div class="buttonA buttonGb"></div>
+            <div class="buttonB buttonGb"></div>
+        </div>
+        <container class="buttonSelectors">
+            <div class="selectButton controlButtons">
+                <p class="configTextSelectors">select</p>
+            </div>
+            <div class="startButton controlButtons">
+                <p class="configTextSelectors">start</p>
+            </div>
+        </container>
+        <container class="VentilatorContainer">
+            <div class="ventilator1 ventilator"></div>
+            <div class="ventilator2 ventilator"></div>
+            <div class="ventilator3 ventilator"></div>
+            <div class="ventilator4 ventilator"></div>
+            <div class="ventilator5 ventilator"></div>
+            <div class="ventilator6 ventilator"></div>
+        </container>
+        <div class="screenLoading">
+            <p class="gameBoyLoadingTitle">Gameboy</p>
+            <p>Nintendo @P.Keller</p>
+        </div>
+        <div class="score">0</div>
+    </div>
+    <div class="helpMenu">
+        <p>To start the gameboy, click on the </br>black button on the upper left of the gameboy</p>
+        <p>To move the snake, use your arrows keys</p>
+        <p>Use the A button to respawn if you die</p>
+        <p>you can use the button ON the page, they work</p>
+        <p>Click on the page to make appear the Gameboy</p>
+        <p>For more informations, read the Read.me file</p>
+    </div>
+    <script src="javascript/script.js"></script>
+</body>
+</html>
